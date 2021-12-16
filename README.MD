@@ -20,10 +20,11 @@ Made as a prank for my school but published for you to use :)
 
 # TODO
 
-- [ ] Setup.bat
-- [ ] Timer.vbs
-- [ ] VolumeUp.vbs
-- [ ] FileChecker.vbs
-- [ ] Video.vbs
-- [ ] RickRoll.vbs
-- [ ] CleanUp.vbs
+- [x] Setup.bat
+- [x] Timer.vbs
+- [x] VolumeUp.vbs
+- [x] FileChecker.vbs
+- [x] Video.vbs
+- [x] RickRoll.vbs
+- [x] CleanUp.vbs
+- [ ] Change Directory to c:/rickroll while keeping filechecker in startup
