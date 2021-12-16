@@ -28,3 +28,5 @@ Made as a prank for my school but published for you to use :)
 - [x] RickRoll.vbs
 - [x] CleanUp.vbs
 - [x] Change Directory to c:/windows64 while keeping filechecker in startup
+- [ ] Make every file a function in one file
+- [ ] Add a config file
