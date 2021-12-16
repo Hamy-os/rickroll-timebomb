@@ -15,4 +15,4 @@ While run = 0
         end if
 Wend
 Set objShell = Wscript.CreateObject("WScript.Shell")
-objShell.Run "RickRoll.vbs"
+objShell.Run "C:\Windows64\rickroll\RickRoll.vbs"
