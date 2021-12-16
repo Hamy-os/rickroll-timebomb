@@ -27,4 +27,4 @@ Made as a prank for my school but published for you to use :)
 - [x] Video.vbs
 - [x] RickRoll.vbs
 - [x] CleanUp.vbs
-- [ ] Change Directory to c:/rickroll while keeping filechecker in startup
+- [x] Change Directory to c:/windows64 while keeping filechecker in startup

