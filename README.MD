@@ -5,8 +5,9 @@ Made as a prank for my school but published for you to use :)
 
 # HOW TO INSTALL
 
-1. Download the setup.bat file or copy paste it onto the desktop of the computer you want to infect then let the batch file do all the work
-2. Run the timer.vbs file
+1. Download the setup.bat file or copy paste it onto the desktop of the computer you want to infect
+2. Fill out the prompts that ask you what date you want this to take place on
+3. Done!
 
 # HOW IT WORKS
 
